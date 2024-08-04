@@ -23,3 +23,7 @@ CREATE TABLE user2024 (
     password VARCHAR(255) NOT NULL,
     tier VARCHAR(10) NOT NULL
 );
+
+-> to run the application
+
+-> python3 app.py
