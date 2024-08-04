@@ -5,11 +5,8 @@
 
 -> table used description
 
-+----------+--------------+------+-----+---------+-------+
-| Field    | Type         | Null | Key | Default | Extra |
-+----------+--------------+------+-----+---------+-------+
-| name     | varchar(20)  | NO   | PRI | NULL    |       |
-| password | varchar(255) | YES  |     | NULL    |       |
-| tier     | varchar(10)  | YES  |     | NULL    |       |
-+----------+--------------+------+-----+---------+-------+
-
+CREATE TABLE user2024 (
+    name VARCHAR(20) NOT NULL PRIMARY KEY,
+    password VARCHAR(255) NOT NULL,
+    tier VARCHAR(10) NOT NULL
+);
