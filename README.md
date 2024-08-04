@@ -5,6 +5,8 @@
 
 -> table used description
 
+-> SQL table name: user2024
+
 CREATE TABLE user2024 (
     name VARCHAR(20) NOT NULL PRIMARY KEY,
     password VARCHAR(255) NOT NULL,
