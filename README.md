@@ -3,7 +3,7 @@
 
 -> used HTML, CSS,Flask, MySQL
 
--> table used description
+-> description of the DB and tables used
 
 -> to set up DB
 
