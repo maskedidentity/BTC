@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('https://mgtstoneco.com/wp-content/uploads/2023/08/absolute-black-marble-surface.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Ga Maamli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+}
+.logo {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    position: relative;
+    left: -875px;
+    top: -400px;
+    
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+.s{
+    position: relative;
+    top: -125px;
+}
+.t{
+    color: white; 
+    text-decoration: underline; 
+    text-decoration-color: white; 
+}
+.home2 {
+    position: relative;
+    right: 0px; 
+}
+
+.home-icon {
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.home-icon:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}

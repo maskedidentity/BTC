@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <div class="sana">
+            <h1> LOGIN DETAILS </h1>
+        </div>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/login_successful.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <img src="../static/images/BTC.png" class="logo" alt="Logo">
+        <div class="tables">
+            <p><strong>Name:</strong> {{ name }}</p>
+            <p><strong>Password:</strong> {{ password }}</p>
+            <p><strong>Tier:</strong> {{ tier }}</p>
+        </div>
+        <div class="home2">
+            <a href="{{ url_for('home') }}">
+                <img src="{{ url_for('static', filename='images/home.png') }}" alt="Home" class="home-icon" title="Back To Home">
+            </a>
+        </div>
+    </body>
+</html>

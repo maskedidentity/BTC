@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/CEO2024.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+        <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli:wght@400;700&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli:wght@400;700&display=swap" rel="stylesheet">
+        <h2>
+            <h1 class="glitch">
+                <span aria-hidden="true">Welcome CEO</span>
+                Welcome CEO
+                <span aria-hidden="true">Welcome CEO</span>
+            </h1>
+        </h2>
+    </head>
+    <body>
+        <div id="pre-loader"></div>
+
+        <img src="../static/images/BTC.png" class="logo" alt="Logo">
+        <p>DETAILS</p>
+        <div class="tables">
+            <p><strong>Name:</strong> {{ name }}</p>
+            <p><strong>Password:</strong> {{ password }}</p>
+            <p><strong>Tier:</strong> {{ tier }}</p>
+        </div>
+        <p> Here's the flag, You are the CEO afterall ;D</p><br>
+        <div class="flag">
+            <p> CTF{@r3_yuh_th3_r3al_CE0?}</p>
+        </div>
+        <div class="home2">
+            <a href="{{ url_for('home') }}">
+                <img src="{{ url_for('static', filename='images/home.png') }}" alt="Home" class="home-icon" title="Back To Home">
+            </a>
+        </div>
+        <script>
+            var loader = document.getElementById("pre-loader");
+
+            window.addEventListener("load", function(){
+                setTimeout(function(){
+                    loader.style.display = "none";
+                }, 6000);
+            });
+        </script>
+      
+    </body>
+</html>

@@ -1,0 +1,5 @@
+database:
+  user: 'root'
+  password: 'sanasahi'
+  host: 'localhost'
+  database: 'BTC'

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <img src="../static/images/BTC.png" class="logo">
+    <link rel="stylesheet" href="../static/signup.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli:wght@400;700&display=swap" rel="stylesheet">
+    <title>Signup</title>
+</head>
+<body>
+    <div class='sign'><h1>Signup Page</h1></div>
+    <div class="inputs">
+    <form action="/signup" method="post">
+        <p> Username</p><br>
+        <input type="text" name="name" placeholder="Name" required><br>
+        <p> Password</p><br>
+        <input type="password" name="password" placeholder="Password" required><br>
+        <div class="field">
+            <fieldset>
+                <legend>Select your tier:</legend><br>
+                <select name="tier" id="tier" required>
+                    <option value="" disabled selected>Select a tier</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                    <option value="gold">Gold</option>
+                </select>
+            </fieldset>
+        </div>
+        
+    <br>
+    </div>
+    <div class="button1">
+        <button type="submit">Sign Up</button>
+    </div> 
+    </form>
+    <br>
+    <div class="home2">
+        <a href="{{ url_for('home') }}">
+            <img src="{{ url_for('static', filename='images/home.png') }}" alt="Home" class="home-icon" title="Back To Home">
+        </a>
+    </div>
+    </div>
+</body>
+</html>

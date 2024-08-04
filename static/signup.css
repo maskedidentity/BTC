@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcjV2djdmZ2I0bHBzYnFqeW10eTViY2pkdWZvcTEzeXM5eHN3cG1ubyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3q3SUqPnxZGQpMNcjc/giphy.gif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Ga Maamli', sans-serif;
+}
+.logo {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+.inputs {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    position: relative;
+    right: -725px;
+    top: 100px;
+}
+
+.inputs input[type="text"],
+.inputs input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.2); 
+    color: #fff;   
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    position: relative;
+
+ 
+}
+
+.inputs input[type="text"]:focus,
+.inputs input[type="password"]:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+.inputs input::placeholder {
+    color: #ddd;
+    font-style: italic;
+}
+
+.field select {
+    width: calc(100% - 20px); 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2); 
+    color: #fff;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.field select:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.25);
+    outline: none;
+}
+
+.field option {
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+.sign {
+    position: relative;
+    left: 870px;
+    top: 100px;
+    color: white; 
+    font-size: 15px; 
+}
+
+.sign h1 {
+    position: relative;
+    display: inline-block;
+}
+
+.sign h1::after {
+    content: ''; 
+    display: block;
+    width: 100%; 
+    height: 2px; 
+    background-color: white; 
+    position: absolute;
+    bottom: -5px; 
+    left: 0;
+}
+.button1 button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid transparent; 
+    border-radius: 8px; 
+    background: rgba(0, 123, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background 0.3s, border 0.3s; 
+    position: relative;
+    right: -900px; 
+    top: 100px; 
+}
+
+.button1 button:hover {
+    background: rgba(0, 123, 255, 0.2); 
+    border: 2px solid rgba(255, 255, 255, 0.5); 
+}
+.home2 {
+    position: relative;
+    right: -930px; 
+    top: 100px;
+}
+
+.home-icon {
+    width: 40px; 
+    height: 40px; 
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.home-icon:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}

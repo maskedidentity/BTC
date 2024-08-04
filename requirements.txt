@@ -1,0 +1,9 @@
+sudo apt-get install python3-pip
+pip install flask
+pip install Flask mysql-connector-python
+pip install mysql-connector-python
+pip install flask_session
+pip install PyYAML
+pip install Werkzeug
+
+

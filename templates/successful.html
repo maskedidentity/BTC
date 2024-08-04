@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/successful.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli:wght@400;700&display=swap" rel="stylesheet">
+    <title>Successful</title>
+</head>
+<body>
+    <img src="../static/images/BTC.png" class="logo" alt="Logo">
+    <div class="sana">
+        <h1>SUCCESSFUL</h1>
+    </div>
+    <div class="tex">
+        <h2>Login Creation was Successful!</h2>
+    </div>
+    <div class="table">
+        <p><strong>Name:</strong> <span>{{ name }}</span></p>
+        <p><strong>Password:</strong> <span>{{ password }}</span></p>
+        <p><strong>Tier:</strong> <span>{{ tier }}</span></p>
+    </div>
+    <div class="home2">
+        <a href="{{ url_for('home') }}">
+            <img src="{{ url_for('static', filename='images/home.png') }}" alt="Home" class="home-icon" title="Back To Home">
+        </a>
+    </div>
+</body>
+</html>
