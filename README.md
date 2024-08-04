@@ -1,4 +1,4 @@
--> made this challenge for mimicking http parameter pollution vulnerability on tier 
+-> made this challenge for mimicking http parameter pollution vulnerability on tier variable
 
 
 -> used HTML, CSS,Flask, MySQL
