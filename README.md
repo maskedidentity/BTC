@@ -5,6 +5,17 @@
 
 -> table used description
 
+-> to set up DB
+
+-> systemctl start mysql
+
+
+-> mysql -u root -h localhost -p 
+
+
+-> DB name: BTC
+
+
 -> SQL table name: user2024
 
 CREATE TABLE user2024 (
